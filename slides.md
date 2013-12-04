@@ -1,3 +1,4 @@
+<!--- vim: set fdm=marker: -->
 % title: Webdev Workflow
 % subtitle: Hook up your development environment
 % author: Zach Fogg
@@ -7,7 +8,7 @@
 % contact: <img src="http://terrapinhackers.com/img/roboto_icon.png" width="40" height="40" alt="Roboto">
 % favicon: http://terrapinhackers.com/img/favicon.ico
 
-
+<!--Intro{{{-->
 ---
 title: Workflow
 build_lists: true
@@ -16,7 +17,10 @@ build_lists: true
 - A good workflow equals better output
 - The best workflow could be better
 
+<!--Intro}}}-->
 
+
+<!--{{{-->
 ---
 title: Pretend like you're blackout-drunk
 subtitle: Relevant XKCD
@@ -26,7 +30,28 @@ class: img-top-center
 
 <footer class="source">http://xkcd.com/323/</footer>
 
+<!--}}}-->
 
+
+<!--{{{-->
+---
+title: Know your tools
+subtitle: like the back of your hand
+
+<q>
+I think we’re seeing the emphasis shift from valuing trivia to valuing tools.
+</q>
+
+<footer class="source">
+    <a href="http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/">
+        Rebecca Murphey - Adventures in JavaScript Development
+    </a>
+</footer>
+
+<!--}}}-->
+
+
+<!--{{{-->
 ---
 title: Know your tools
 subtitle: like the back of your hand
@@ -48,7 +73,19 @@ As an engineer, there is a short list of tools that you must be rabid about. Rab
     </a>
 </footer>
 
+<!--}}}-->
 
+
+<!--Text editor{{{-->
+---
+title: Text editor
+subtitle: There can only be one
+class: segue dark nobackground
+
+<!--Text editor}}}-->
+
+
+<!--{{{-->
 ---
 title: Text editor
 
@@ -56,7 +93,10 @@ This is where you will spend most of time.
 
 You should know your text editor best of all.
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: Text editor
 build_lists: true
@@ -70,9 +110,12 @@ Your text editor should be
 
 - informative  
 
-- your _magic wand_
+- your ' magic wand '
+
+<!--}}}-->
 
 
+<!--{{{-->
 ---
 title: Text editor
 build_lists: true
@@ -96,13 +139,19 @@ _Merlin_'s wand
 - Vim  
 A fully automatic, turbocharged version of _Gandalf the Grey_'s staff
 
+<!--}}}-->
 
+
+<!--The command line{{{-->
 ---
 title: The command line
 subtitle: because it looks like you're 'hacking'
 class: segue dark nobackground
 
+<!--The command line}}}-->
 
+
+<!--{{{-->
 ---
 title: SSH is sweet
 subtitle: and super simple
@@ -124,7 +173,10 @@ $ git clone gh:zfogg/zfogg
 Cloning into 'zfogg'...
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: tmux is terrific
 subtitle: and your terminal is terrible
@@ -132,7 +184,10 @@ subtitle: and your terminal is terrible
 - <a href="http://tmux.sourceforge.net/">tmux</a>
 - <a href="http://www.github.com/zfogg/zfogg">/home/zfogg/.tmux.conf</a>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: tmux is terrific
 subtitle: and your terminal is terrible
@@ -142,7 +197,10 @@ build_lists: true
 - Sessions and SSH
 - <a href="https://github.com/Lokaltog/powerline">Powerline</a> - the ultimate statusline/prompt utility
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: Aliases are amazing
 
@@ -167,7 +225,10 @@ $ alias ipaddr="dig +short myip.opendns.com @resolver1.opendns.com"
 $ alias server="python -m SimpleHTTPServer"
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: Zsh is . . . zee best
 subtitle: and Bash bites
@@ -176,7 +237,10 @@ subtitle: and Bash bites
 - My own <a href="http://www.github.com/zfogg/zfogg">~/.zshrc</a>
 - <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>  ~ Zsh themes and plugins
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: Zsh is . . . zee best
 subtitle: and Bash bites
@@ -189,17 +253,26 @@ build_lists: true
 - Prompts
 - Syntax highlighting
 
+<!--}}}-->
 
+
+<!--Actual Web Development{{{-->
 ---
 title: Actual web development
 class: segue dark nobackground
 
+<!--Actual Web Development}}}-->
 
+
+<!--CSS Sucks{{{-->
 ---
 title: CSS sucks
 class: segue dark nobackground
 
+<!--CSS Sucks}}}-->
 
+
+<!--{{{-->
 ---
 title: CSS sucks
 subtitle: The defaults are ridiculous
@@ -209,7 +282,10 @@ class: centered-content img-top-center
 <br>
 <img src="http://www.binvisions.com/wp-content/uploads/2011/09/css-box-model-border-content_590x328.jpg" alt="">
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CSS sucks
 subtitle: Too verbose for drunk Ballmer
@@ -226,7 +302,10 @@ subtitle: Too verbose for drunk Ballmer
 #header-bottom-left .tabmenu li a { color: #5F4444 !important; font: normal 14px/34px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;  }
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CSS sucks
 subtitle: The simplest concepts are unnecessarily difficult
@@ -243,7 +322,10 @@ subtitle: The simplest concepts are unnecessarily difficult
 }
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CSS sucks
 subtitle: <br>
@@ -251,13 +333,19 @@ class: centered-content
 
 #:/
 
+<!--}}}-->
 
+
+<!--Less and SASS{{{-->
 ---
 title: LESS and SASS
 subtitle: Leaner CSS and Syntactically Awesome Stylesheets
 class: segue dark nobackground
 
+<!--Less and SASS}}}-->
 
+
+<!--{{{-->
 ---
 title: LESS and SASS
 build_lists: true
@@ -268,12 +356,18 @@ build_lists: true
 - Nested rules
 - Libraries ~ Compass and Bootstrap
 
+<!--}}}-->
 
+
+<!--JavaScript sucks{{{-->
 ---
 title: JavaScript sucks
 class: segue dark nobackground
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: JavaScript sucks
 subtitle: wtf
@@ -295,7 +389,10 @@ undefined = 42;
 a.b === undefined; // false
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: JavaScript sucks
 subtitle: I'm done
@@ -303,7 +400,10 @@ class: centered-content
 
 (╯°□°)╯︵ ┻━┻
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: JavaScript sucks
 subtitle: <br>
@@ -316,13 +416,19 @@ build_lists: true
 - semicolons and braces are unnecessary
 - strings and lists are difficult
 
+<!--}}}-->
 
+
+<!--CoffeeScript{{{-->
 ---
 title: CoffeeScript
 subtitle: A little language that compiles into JavaScript
 class: segue dark nobackground
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CoffeeScript
 
@@ -347,7 +453,10 @@ StuffHandler = (stuff) ->
     $("#stuff").click (event) => @stuff.doSomething event
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CoffeeScript
 
@@ -370,7 +479,10 @@ fold = (f, xs, acc) ->
     else acc
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CoffeeScript
 
@@ -388,7 +500,10 @@ class Roboto extends Mascot
         drawJPG @icon, x, y
 </pre>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CoffeeScript
 
@@ -406,7 +521,10 @@ factorial = (n) -> product [1..n]
 
 <footer class="source"><a href="https://gist.github.com/zfogg/9d69011f501437217c6e">source @ gist.github.com</a></footer>
 
+<!--}}}-->
 
+
+<!--{{{-->
 ---
 title: CoffeeScript
 
@@ -430,3 +548,149 @@ times_two = (xs)   -> xs.map multiply.curry(2)
 </pre>
 
 <footer class="source"><a href="https://gist.github.com/zfogg/9d69011f501437217c6e">source @ gist.github.com</a></footer>
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: CoffeeScript
+build_lists: true
+
+is not your only option
+
+[AltJS - list of languages that compile to JS](http://altjs.org)
+
+Don't like CS? Need more language features?
+
+Choose another altjs language!
+
+- [ClojureScript](https://github.com/clojure/clojurescript) by the Clojure team. Clojure (a JVM lisp) to JS compiler.
+- [Dart]() by Google. Class based and object oriented with a C or Java-like syntax.
+- [TypeScript](http://www.typescriptlang.org/) by Microsoft. Superset of JS with compile-time type support.
+
+<!--}}}-->
+
+
+<!--Git{{{-->
+---
+title: Git
+subtitle: distributed version control
+class: segue dark nobackground
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: Git
+subtitle: yourself a better workflow
+build_lists: true
+class: img-top-center
+
+<img width="531" height="454" src="http://erickryski.com/assets/img/git_branch_diagram.jpg" alt="Git branch diagram">
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: Git
+subtitle: yourself a better workflow
+build_lists: true
+
+You should know how to:
+
+- `$ git add -p`  
+
+- `$ git stash`  
+
+- `$ git rebase -i`
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: Git
+subtitle: yourself a better workflow
+build_lists: true
+
+oh-my-zsh plugins `git` and `git-extras`
+<br> <br>
+
+- Automatic aliases - `$ alias | grep 'git'`  
+<br>  
+- Additional awesomeness:
+- `$ git whatchanged -p --abbrev-commit --pretty=medium`
+- `$ git delete-submodule` # Doing it yourself is messy.
+- `$ git delete-branch`    # Local and remote
+- `$ git undo`             # Undo last commit.
+
+<!--}}}-->
+
+
+<!--Yeoman{{{-->
+---
+title: Yeoman
+subtitle: modern workflow for modern apps
+class: segue dark nobackground
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: Yeoman
+subtitle: yo
+
+Scaffolding for new projects.
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: Yeoman
+subtitle: Grunt
+build_lists: true
+
+Build from source; the equivilant of a `Makefile`.
+
+- compile
+- uglify
+- livereload
+- some sort of shell command
+- TJ hates them :(
+
+<footer class="source"><a href="http://www.youtube.com/watch?v=f7AU2Ozu8eo#watch-discussion">+Tj Holowaychuk</a></footer>
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: Yeoman
+subtitle: Bower
+
+Frontend dependency manager.
+
+<!--}}}-->
+
+
+<!--{{{-->
+---
+title: The browser
+subtitle: Dev tools
+build_lists: true
+
+Chrome and Firefox:  
+Almost better at debugging than your fancy IDE
+
+- Change stuff
+- Console
+- All sorts of good stuff
+- Firefox has improved
+
+<!--}}}-->
+
