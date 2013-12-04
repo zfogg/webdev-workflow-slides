@@ -76,12 +76,14 @@ As an engineer, there is a short list of tools that you must be rabid about. Rab
 <!--Text editor{{{-->
 ---
 title: Text editor
-subtitle: There can only be one
 class: segue dark nobackground
 
 <!--{{{-->
 ---
 title: Text editor
+class: centered-content
+
+<br> <br> <br> <br> <br> <br>
 
 This is where you will spend most of time.
 
@@ -103,7 +105,7 @@ Your text editor should be
 
 - informative  
 
-- your ' magic wand '
+- a ' magic wand '
 
 <!--}}}-->
 
@@ -129,7 +131,30 @@ Your standard magic wand
 _Merlin_'s wand
 
 - Vim  
-A fully automatic, turbocharged version of _Gandalf the Grey_'s staff
+_Gandalf the White_'s staff, fully automatic and turbocharged
+
+<!--}}}-->
+
+<!--{{{-->
+---
+title: Text editor
+subtitle: Hands on the home row
+build_lists: true
+
+- Mice are good for many things
+- but not code
+<!--}}}-->
+
+<!--{{{-->
+---
+title: Text editor
+subtitle: Hands on the home row
+build_lists: true
+
+Keyboard shortcuts are a GoodThing™
+
+- Learn them
+- Make your own
 
 <!--}}}-->
 
@@ -576,6 +601,8 @@ You should know how to:
 - `$ git stash`  
 
 - `$ git rebase -i`
+
+- `$ git merge`
 
 <!--}}}-->
 
