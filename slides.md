@@ -5,7 +5,7 @@
 % author: @zfogg
 % thankyou: Thanks &#58;&#41;
 % thankyou_details:
-% contact: <img src="http://terrapinhackers.com/img/roboto_icon.png" width="40" height="40" alt="Roboto">
+% contact: <div id="roboto-wrapper"><img src="http://terrapinhackers.com/img/roboto_icon.png" width="80" height="80" alt="Roboto"></div>
 % favicon: http://terrapinhackers.com/img/favicon.ico
 
 <!--Intro{{{-->
@@ -263,6 +263,25 @@ build_lists: true
 - Argument completion
 - Prompts
 - Syntax highlighting
+
+<!--}}}-->
+
+<!--{{{-->
+---
+title: The shell
+subtitle: is full of secrets and wonders
+build_lists: true
+
+- `$ sudo !!`  
+
+- `$ z somewhere`  
+
+- `$ sudo pacman -S typo-package`  
+`$ ^typo^correct^`  
+or  
+`$ !!:s/typo/correct`  
+
+- `$ wget -O - http://placekitten.com/$[500 + RANDOM % 500]`  
 
 <!--}}}-->
 
@@ -650,6 +669,8 @@ subtitle: Grunt
 build_lists: true
 
 Build from source; the equivilant of a `Makefile`.
+
+[Grunt](http://gruntjs.com/)
 
 - compile
 - uglify
