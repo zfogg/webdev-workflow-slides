@@ -17,9 +17,6 @@ build_lists: true
 - A good workflow equals better output
 - The best workflow could be better
 
-<!--Intro}}}-->
-
-
 <!--{{{-->
 ---
 title: Pretend like you're blackout-drunk
@@ -31,7 +28,6 @@ class: img-top-center
 <footer class="source">http://xkcd.com/323/</footer>
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -49,7 +45,6 @@ I think we’re seeing the emphasis shift from valuing trivia to valuing tools.
 </footer>
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -75,15 +70,14 @@ As an engineer, there is a short list of tools that you must be rabid about. Rab
 
 <!--}}}-->
 
+<!--Intro}}}-->
+
 
 <!--Text editor{{{-->
 ---
 title: Text editor
 subtitle: There can only be one
 class: segue dark nobackground
-
-<!--Text editor}}}-->
-
 
 <!--{{{-->
 ---
@@ -94,7 +88,6 @@ This is where you will spend most of time.
 You should know your text editor best of all.
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -113,7 +106,6 @@ Your text editor should be
 - your ' magic wand '
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -141,15 +133,14 @@ A fully automatic, turbocharged version of _Gandalf the Grey_'s staff
 
 <!--}}}-->
 
+<!--Text editor}}}-->
+
 
 <!--The command line{{{-->
 ---
 title: The command line
 subtitle: because it looks like you're 'hacking'
 class: segue dark nobackground
-
-<!--The command line}}}-->
-
 
 <!--{{{-->
 ---
@@ -175,7 +166,6 @@ Cloning into 'zfogg'...
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: tmux is terrific
@@ -185,7 +175,6 @@ subtitle: and your terminal is terrible
 - <a href="http://www.github.com/zfogg/zfogg">/home/zfogg/.tmux.conf</a>
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -198,7 +187,6 @@ build_lists: true
 - <a href="https://github.com/Lokaltog/powerline">Powerline</a> - the ultimate statusline/prompt utility
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -227,7 +215,6 @@ $ alias server="python -m SimpleHTTPServer"
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: Zsh is . . . zee best
@@ -238,7 +225,6 @@ subtitle: and Bash bites
 - <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>  ~ Zsh themes and plugins
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -255,6 +241,8 @@ build_lists: true
 
 <!--}}}-->
 
+<!--The command line}}}-->
+
 
 <!--Actual Web Development{{{-->
 ---
@@ -269,9 +257,6 @@ class: segue dark nobackground
 title: CSS sucks
 class: segue dark nobackground
 
-<!--CSS Sucks}}}-->
-
-
 <!--{{{-->
 ---
 title: CSS sucks
@@ -283,7 +268,6 @@ class: centered-content img-top-center
 <img src="http://www.binvisions.com/wp-content/uploads/2011/09/css-box-model-border-content_590x328.jpg" alt="">
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -304,7 +288,6 @@ subtitle: Too verbose for drunk Ballmer
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: CSS sucks
@@ -324,7 +307,6 @@ subtitle: The simplest concepts are unnecessarily difficult
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: CSS sucks
@@ -335,15 +317,14 @@ class: centered-content
 
 <!--}}}-->
 
+<!--CSS Sucks}}}-->
+
 
 <!--Less and SASS{{{-->
 ---
 title: LESS and SASS
 subtitle: Leaner CSS and Syntactically Awesome Stylesheets
 class: segue dark nobackground
-
-<!--Less and SASS}}}-->
-
 
 <!--{{{-->
 ---
@@ -358,14 +339,13 @@ build_lists: true
 
 <!--}}}-->
 
+<!--Less and SASS}}}-->
+
 
 <!--JavaScript sucks{{{-->
 ---
 title: JavaScript sucks
 class: segue dark nobackground
-
-<!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -391,7 +371,6 @@ a.b === undefined; // false
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: JavaScript sucks
@@ -401,7 +380,6 @@ class: centered-content
 (╯°□°)╯︵ ┻━┻
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -418,15 +396,14 @@ build_lists: true
 
 <!--}}}-->
 
+<!--JavaScript sucks}}}-->
+
 
 <!--CoffeeScript{{{-->
 ---
 title: CoffeeScript
 subtitle: A little language that compiles into JavaScript
 class: segue dark nobackground
-
-<!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -455,7 +432,6 @@ StuffHandler = (stuff) ->
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: CoffeeScript
@@ -481,7 +457,6 @@ fold = (f, xs, acc) ->
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: CoffeeScript
@@ -502,7 +477,6 @@ class Roboto extends Mascot
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: CoffeeScript
@@ -522,7 +496,6 @@ factorial = (n) -> product [1..n]
 <footer class="source"><a href="https://gist.github.com/zfogg/9d69011f501437217c6e">source @ gist.github.com</a></footer>
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -551,7 +524,6 @@ times_two = (xs)   -> xs.map multiply.curry(2)
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: CoffeeScript
@@ -571,15 +543,14 @@ Choose another altjs language!
 
 <!--}}}-->
 
+<!--CoffeeScript}}}-->
+
 
 <!--Git{{{-->
 ---
 title: Git
 subtitle: distributed version control
 class: segue dark nobackground
-
-<!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -591,7 +562,6 @@ class: img-top-center
 <img width="531" height="454" src="http://erickryski.com/assets/img/git_branch_diagram.jpg" alt="Git branch diagram">
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -608,7 +578,6 @@ You should know how to:
 - `$ git rebase -i`
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -629,15 +598,14 @@ oh-my-zsh plugins `git` and `git-extras`
 
 <!--}}}-->
 
+<!--Git}}}-->
+
 
 <!--Yeoman{{{-->
 ---
 title: Yeoman
 subtitle: modern workflow for modern apps
 class: segue dark nobackground
-
-<!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -647,7 +615,6 @@ subtitle: yo
 Scaffolding for new projects.
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -667,7 +634,6 @@ Build from source; the equivilant of a `Makefile`.
 
 <!--}}}-->
 
-
 <!--{{{-->
 ---
 title: Yeoman
@@ -676,7 +642,6 @@ subtitle: Bower
 Frontend dependency manager.
 
 <!--}}}-->
-
 
 <!--{{{-->
 ---
@@ -693,4 +658,6 @@ Almost better at debugging than your fancy IDE
 - Firefox has improved
 
 <!--}}}-->
+
+<!--Yeoman}}}-->
 
